@@ -1,0 +1,16 @@
+body{
+    /* background color */
+    background: linear-gradient(to right,red,blue,yellow,green);
+}
+.container{
+    /* background: linear-gradient(to right,red,blue,yellow,green); */
+    /* background-image: url(media/Andromeda-galaxy.webp); */
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-size: cover;
+    
+}
+.container p{
+    color: green;
+    
+}

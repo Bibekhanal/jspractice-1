@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .box {
+    width: 400px;
+    height: 400px;
+    background-color: violet;
+    border: 2px solid red;
+    /* 1D */
+    /* transform: translateX(30px); */
+    /* transform: translateY(30px); */
+    /* transition: all 5s linear 0.1; */
+    /* transition-duration: 10s; */
+    /* 2d */
+    /* transform: translate(30px,50px) rotate(60deg) scale(2); */
+      /* transform: skewy(-45deg); */
+
+  /* 3D */
+  /* transform: perspective(300px) translateZ(2px); */
+  /* transform: perspective(300px) rotateX(20deg); */
+  /* transform: perspective(300px) scale3d(2, 5, 26) rotateY(359deg); */
+  /* transform: perspective(300px) translate3d(40px, 40px, 30px); */
+  transform: rotateZ(48deg);
+
+
+  }
+
+
+
+
+
+
+  .box:hover {
+    /* width: 600px;
+    border: none;
+    height: 600px;
+    background-color: black;
+    color: white; */
+    /* transition : property duration timing-function delay ; */
+
+    /* transition-duration: 5s;
+    transition-delay: 0.1s;
+    transition-property: all;
+    transition-timing-function: ease-in-out; */
+  }

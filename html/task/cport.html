@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse; 
+        }
+    </style>
+    
+</head>
+<body>
+     <header>
+        <h1>Welcome To Our Platform</h1>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#reports">Reports</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#About">About</a></li>
+            </ul>      
+     </header>
+</body>
+<main>
+    <div id="Dashboard">
+        <h1>Company Employee Report</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">ID</th>
+                    <th rowspan="2">Name</th>
+                    <th rowspan="2">Department</th>
+                    <th colspan="2">Performance</th>
+                    <th rowspan="2">Salary</th>
+                    <th rowspan="2">Status</th>
+                </tr>
+                <tr>
+                    <th>2023</th>
+                    <th>2024</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>john doe</td>
+                    <td rowspan="2">it</td>
+                    <td>Excellent</td>
+                    <td>good</td>
+                    <td>$70,000</td>
+                    <td>active</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>jane smith</td>
+                    <td>good</td>
+                    <td>excellent</td>
+                    <td>$75,000</td>
+                    <td>active</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Michael brown</td>
+                    <td>hr</td>
+                    <td>average</td>
+                    <td>good</td>
+                    <td>$60,000</td>
+                    <td>active</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Sarah lee</td>
+                    <td rowspan="2">finance</td>
+                    <td>excellent</td>
+                    <td>excellent</td>
+                    <td>$80,000</td>
+                    <td rowspan="2">promoted</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Sarah lee</td>
+                    <td>excellent</td>
+                    <td>excellent</td>
+                    <td>$90,000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                   
+                    <td colspan="6"></td>
+                    <td>Report Granted</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div>
+        <h1>Annual Reports</h1>
+        <ul>
+            <li>2021-Business Growth Report</li>
+            <li>2022-Employee Satisfaction Report</li>
+            <li>2023-Financial Performance Overview</li>
+            <li>2024-Future Strategy Report</li>
+        </ul>
+    </div>
+    <div>
+        <h1>Contact Us</h1>
+         <label for="name">Full Name:</label>
+         <input type="text" id="name"><br/><br/>
+         <label for="email">Email :</label>
+         <input type="email" id="name">
+         
+    </div>
+    <div>
+        
+    </div>
+</main>
+</html>

@@ -1,0 +1,37 @@
+body{
+    background-image: url(/html/practice/media/Andromeda-galaxy.webp);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    border-radius: 30px;
+  
+}
+
+.login-box{
+    
+    width: 500px;
+    height: 400px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;  
+
+}
+.input-box input{
+    border-radius: 15px;
+
+}
+.password-forget a{
+    display: inline-flex;
+    color: black;
+    
+
+    
+
+}
