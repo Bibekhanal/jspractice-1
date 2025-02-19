@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+@import "tailwindcss";
+@theme{
+    --color-primary: #fe9808;
+    --color-secondary: #e2e2d5;
+    --font-display: "Grechen Fuemen", serif;
+}
+@layer components{
+    .container {
+        @apply  max-w-6xl mx-auto;
+    }
+}
